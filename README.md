@@ -6,9 +6,12 @@ If running on the JetsonBot itself:
 $ roslaunch pocketsphinx jetsonbot_voice_cmd.launch
 
 If running remotely:
+
 1. SSH into the JetsonBot and Launch ROS
+
 2. In another Terminal, SSH into the JetsonBot and start a virtual X11 server:
    $ Xvfb :1 &
+
 3. In another Terminal, SSH into the JetsonBot and launch pocketsphinx:
    $ cd ~/jetsonbot
    $ export DISPLAY=:1
